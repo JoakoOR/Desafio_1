@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
+    <title>Calculando el total</title>
+
+</head>
+
+<body>
+
+
+<!-- TARJETA INFO PRODUCTO -->
+
+    <div class="container">
+
+        <div class="product-card">
+
+            <img src="https://falabella.scene7.com/is/image/Falabella/gsc_120936978_2860976_1?wid=1500&hei=1500&qlt=70" 
+            alt="" class="Notebook gamer">
+
+            <h3 class="title">Notebook Acer Predator Triton 300</h3>
+            <div class="color-quantity">
+
+                <input type="quantity" class="select-quantity" min="1" value="1">
+
+                <select name="color" id="color" class="select-color">
+
+                    <option value="#b6da64">Verde</option>
+                    <option value="#ff9300">Naranjo</option>
+                    <option value="#0916b4">Azul</option>
+                    <option value="#df0606">Rojo</option>
+
+                </select>
+            </div>
+
+
+            <div class="price-button">
+                Precio: $<span class="price">6.990</span>
+            </div>
+
+            <button class="calculate">Calcular Total</button>
+
+        </div> 
+
+
+      <!--   CARRITO DE COMPRAS -->
+
+        <div class="cart">
+            <h3>Detalle del pedido:</h3>
+            <div class="total-price">
+                Total: <span class="final-price">$0</span>
+            </div>
+
+            <div class="total-quantity">
+                Cantidad: <span class="final-quantity">0</span>
+            </div>
+
+            <div class="final-color">
+                Color: <span class="final-selected-color"></span>
+                <div class="color-swatch" style="background-color: transparent">
+                </div>
+            </div>
+
+
+            <div class="cart-button">
+                <button class="shop">Comprar</button>
+            </div>
+
+        </div>
+
+    </div> 
+
+</body>
+
+</html>
